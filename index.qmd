@@ -1,16 +1,18 @@
+# General background information {background-color="#4BB694"}
+
 ## Cancer touches everyone directly or indirectly. {.center}
 
 ## Cancer is the uncontrolled growth of our cells. {.center}
 
 ## Uncontrolled growth is driven by the accumalation of mutations in our genes. {.center}
 
-## The gene can be considered the basic unit of inheritance, made from nucleic acids using a four letter alphabet to encode information.{.center}
+## The gene can be considered the basic unit of inheritance.<br><br>Genes are sequences of nucleic acids using a four letter alphabet to encode information.{.center}
 
 ## The central dogma of biology is that DNA is transcribed to RNA, and RNA is translated to proteins.<br><br>Along with fats, sugars, salt and water, this is essentially what we and our cells are physically. {.center}
 
-## In fact only about 1.5% of our genes code for protein. Proteins use 20 letter amino acid alaphbet. {.center}
+## In fact only about 1.5% of our genes code for protein.<br><br>Proteins use 20 letter amino acid alaphbet. {.center}
 
-## Mutations occur spontaneouly and from environmental exposure that damages our DNA. When our cells divide and renew, the new cell inherits the mutated DNA. The longer one lives or does certain behaviours, the more chance for mutations. {.center}
+## Mutations occur spontaneouly and from environmental exposure that damages our DNA. When our cells divide and renew, the new cells inherits the mutated DNA. The longer one lives or does certain behaviours, the more chance for mutations. {.center}
 
 ## Treatments are still largely based around poision, burning or cutting. They aim to remove or prevent fast dividing cells continuing.<br><br>These are blunt tools and are unpleasant to undergo. {.center}
 
@@ -20,4 +22,49 @@
 
 ## But given the random aspect of mutations and side effects of existing treatments, a long standing aim has been to create personalised, precise treatments. {.center}
 
-## Re-cap: Genes get mutated and encode information. Proteins are gene products, hence a mutation in a gene can be translated into a mutated protein.<br><br>Historically medicines generally target proteins, and proteins are the what the immune system sees. {.center}
+## Re-cap {.center}
+Genes get mutated and encode information. 
+
+. . .
+
+Proteins are gene products, hence a mutation in a gene can be translated into a mutated protein. 
+
+. . .
+
+Historically medicines generally target proteins, and proteins are the what the immune system sees. 
+
+# Lung cancer {background-color="#4BB694"}
+
+In the UK, 70% of lung cancers are the result of smoking. It is usually diagnosed late which contributes to poor survivability.
+
+. . .
+
+Around 50,000 people are diagnosed each year. 
+
+. . .
+
+Less than 20% of all lung cancer patients survive for 5 years, with the majority of patients surviving less than one year post-diagnosis.
+
+## Lung cancer challenges: prevention, early detection, [treatment]{.vonrestoff} {.center}
+
+# Generative pre-trained transformer {background-color="#4BB694"}
+
+# [A GPT is a dataset!]{.vonrestoff} {.center}
+
+At least that's how I prefer to think of it.<br>Ok, but so what?
+
+## The mental model of a GPT as a dataset helps me think about it's strengths and weaknessess.
+
+- A GPT is amazing at organisational transformations of the complex data it contains and responding to natural language prompts.
+- A GPT is very bad at abstraction or out-of-sample questions i.e. about things not in its dataset.
+- A GPT doesn't neccessarily know the provenance of its data.
+
+## Part of training is through reinforcement
+
+Hence the "desire to please" that generates hallucinations and part of why they all have a different vibe. 
+
+## What does that look like in practice
+
+I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good place to compare outputs from the same prompt.
+
+If it's on the internet there's a good chance it's part of the training dataset.

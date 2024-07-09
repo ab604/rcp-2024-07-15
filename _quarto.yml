@@ -4,8 +4,8 @@ project:
 
 format: 
   revealjs:
-    title: "My title"
-    subtitle: ""
+    title: "Lung Cancer"
+    subtitle: "Research Community of Practice"
     author: Alistair Bailey
     date: last-modified
     date-format: "[Last updated on] YYYY-MM-DD" 
