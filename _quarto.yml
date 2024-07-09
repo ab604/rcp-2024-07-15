@@ -1,0 +1,19 @@
+# Assumes index.qmd is presentation file
+project:
+  output-dir: docs
+
+format: 
+  revealjs:
+    title: "My title"
+    subtitle: ""
+    author: Alistair Bailey
+    date: last-modified
+    date-format: "[Last updated on] YYYY-MM-DD" 
+    theme: [pres-styles.scss] 
+    chalkboard: 
+      buttons: false
+title-slide-attributes:
+    data-background-image: img/USH0149_LOGO-2021_RGB_White_Punched-AW.png
+    data-background-size: 25%
+    data-background-position: top right
+    data-background-color: "#8D3970"

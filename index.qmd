@@ -1,0 +1,23 @@
+## Cancer touches everyone directly or indirectly. {.center}
+
+## Cancer is the uncontrolled growth of our cells. {.center}
+
+## Uncontrolled growth is driven by the accumalation of mutations in our genes. {.center}
+
+## The gene can be considered the basic unit of inheritance, made from nucleic acids using a four letter alphabet to encode information.{.center}
+
+## The central dogma of biology is that DNA is transcribed to RNA, and RNA is translated to proteins.<br><br>Along with fats, sugars, salt and water, this is essentially what we and our cells are physically. {.center}
+
+## In fact only about 1.5% of our genes code for protein. Proteins use 20 letter amino acid alaphbet. {.center}
+
+## Mutations occur spontaneouly and from environmental exposure that damages our DNA. When our cells divide and renew, the new cell inherits the mutated DNA. The longer one lives or does certain behaviours, the more chance for mutations. {.center}
+
+## Treatments are still largely based around poision, burning or cutting. They aim to remove or prevent fast dividing cells continuing.<br><br>These are blunt tools and are unpleasant to undergo. {.center}
+
+## In the 1970s we invented antibody technology and have since designed molecules to bind to receptors on certain types of cancer to inhibit their growth. These came into use around 2000. {.center}
+
+## In the 2000s we developed antibody treatments targeting immune system cells to help our immune system recognise and kill cancer. {.center}
+
+## But given the random aspect of mutations and side effects of existing treatments, a long standing aim has been to create personalised, precise treatments. {.center}
+
+## Re-cap: Genes get mutated and encode information. Proteins are gene products, hence a mutation in a gene can be translated into a mutated protein.<br><br>Historically medicines generally target proteins, and proteins are the what the immune system sees. {.center}
