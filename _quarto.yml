@@ -4,7 +4,7 @@ project:
 
 format: 
   revealjs:
-    title: "Lung Cancer"
+    title: "Cancer research in the age of the GPT"
     subtitle: "Research Community of Practice"
     author: Alistair Bailey
     date: last-modified

@@ -20,7 +20,7 @@
 
 ## In the 2000s we developed antibody treatments targeting immune system cells to help our immune system recognise and kill cancer. {.center}
 
-## But given the random aspect of mutations and side effects of existing treatments, a long standing aim has been to create personalised, precise treatments. {.center}
+## But given the random aspect of mutations and side effects of existing treatments, the challenge is to target treatment better and create more personalised treatments.<br><br>We are now entering the age of cancer vaccines. {.center}
 
 ## Re-cap {.center}
 Genes get mutated and encode information. 
@@ -45,8 +45,17 @@ Around 50,000 people are diagnosed each year.
 
 Less than 20% of all lung cancer patients survive for 5 years, with the majority of patients surviving less than one year post-diagnosis.
 
-## Lung cancer challenges: prevention, early detection, [treatment]{.vonrestoff} {.center}
+## Lung cancer challenges: prevention, [early detection]{.vonrestoff}, [treatment]{.vonrestoff} {.center}
 
+## Multiomics {.center}
+
++  [-ome]{.vonrestoff} is the suffix for whole e.g. genome is the whole set of genes of an organism
++ Using patients tissue we examined their exome, transcriptome, proteome and immunopeptidome
++ The aim is to identify individual mutations that would make cancer vaccines and cancer subtype charateristics that could be used as diagnostic
+
+## In other words, we seek to make sense of the information stored inside patient tissues, but there is a lot of information.<br><br>Hence (bio)informatics! {.center}
+
+<!--
 # Generative pre-trained transformer {background-color="#4BB694"}
 
 # [A GPT is a dataset!]{.vonrestoff} {.center}
@@ -68,3 +77,4 @@ Hence the "desire to please" that generates hallucinations and part of why they 
 I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good place to compare outputs from the same prompt.
 
 If it's on the internet there's a good chance it's part of the training dataset.
+-->
