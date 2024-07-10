@@ -53,7 +53,9 @@ Less than 20% of all lung cancer patients survive for 5 years, with the majority
 + Using patients tissue we examined their exome, transcriptome, proteome and immunopeptidome
 + The aim is to identify individual mutations that would make cancer vaccines and cancer subtype charateristics that could be used as diagnostic
 
-## In other words, we seek to make sense of the information stored inside patient tissues, but there is a lot of information.<br><br>Hence (bio)informatics! {.center}
+## In other words, we seek to make sense of the information stored inside patient tissues, but there is a lot of information.<br><br>Hence (bio)informatics[*]{.highlight} {.center}
+
+[[*]{.highlight} -ics suffix for a branch of study]{.reference}
 
 <!--
 # Generative pre-trained transformer {background-color="#4BB694"}
