@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.537">
+  <meta name="generator" content="quarto-1.5.47">
 
   <meta name="author" content="Alistair Bailey">
   <title>Cancer research in the age of the GPT</title>
@@ -339,7 +339,7 @@ Alistair Bailey
 </div>
 </div>
 
-  <p class="date">Last updated on 2024-07-10</p>
+  <p class="date">Last updated on 2024-07-11</p>
 </section>
 <section>
 <section id="general-background-information" class="title-slide slide level1 center" data-background-color="#4BB694">
@@ -408,14 +408,24 @@ Alistair Bailey
 <ul>
 <li><span class="vonrestoff">-ome</span> is the suffix for whole e.g.&nbsp;genome is the whole set of genes of an organism</li>
 <li>Using patients tissue we examined their exome, transcriptome, proteome and immunopeptidome</li>
-<li>The aim is to identify individual mutations that would make cancer vaccines and cancer subtype charateristics that could be used as diagnostic</li>
+<li>The aim is to identify individual mutations that would make cancer vaccines and cancer subtype charateristics that could be used for diagnosis</li>
 </ul>
 </section>
 <section id="in-other-words-we-seek-to-make-sense-of-the-information-stored-inside-patient-tissues-but-there-is-a-lot-of-information.-hence-bioinformatics" class="slide level2 center">
 <h2>In other words, we seek to make sense of the information stored inside patient tissues, but there is a lot of information.<br><br>Hence (bio)informatics<span class="highlight">*</span></h2>
 <p><span class="reference"><span class="highlight">*</span> -ics suffix for a branch of study</span></p>
+</section>
+<section id="section" class="slide level2" data-background-image="img/deg-volcano-plot-2024-06-26.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-1" class="slide level2" data-background-image="img/claude-2024-07-11.png" data-background-size="contain">
+<h2></h2>
 <!--
 # Generative pre-trained transformer {background-color="#4BB694"}
+
+## Before ChatGPT there was Alphafold[*]{.highlight} {.center}
+
+[[*]{.highlight} Way, way back in 2020. And in fact the first machine learning tool I used was created in 2003]{.reference}
 
 # [A GPT is a dataset!]{.vonrestoff} {.center}
 
@@ -436,6 +446,12 @@ Hence the "desire to please" that generates hallucinations and part of why they 
 I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good place to compare outputs from the same prompt.
 
 If it's on the internet there's a good chance it's part of the training dataset.
+
+## What technology doesn't change
+
+- ABC
+- Certainty and truth are consequence of the accumalation of information. Single experiments or pieces of information rarely if ever definitively answer a question.
+- human cognition
 -->
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -687,18 +703,7 @@ If it's on the internet there's a good chance it's part of the training dataset.
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -730,7 +735,47 @@ If it's on the internet there's a good chance it's part of the training dataset.
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -767,7 +812,11 @@ If it's on the internet there's a good chance it's part of the training dataset.
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

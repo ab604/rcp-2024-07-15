@@ -57,6 +57,10 @@ Less than 20% of all lung cancer patients survive for 5 years, with the majority
 
 [[*]{.highlight} -ics suffix for a branch of study]{.reference}
 
+## {background-image="img/deg-volcano-plot-2024-06-26.png" background-size="contain"}
+
+## {background-image="img/claude-2024-07-11.png" background-size="contain"}
+
 <!--
 # Generative pre-trained transformer {background-color="#4BB694"}
 
@@ -83,4 +87,10 @@ Hence the "desire to please" that generates hallucinations and part of why they 
 I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good place to compare outputs from the same prompt.
 
 If it's on the internet there's a good chance it's part of the training dataset.
+
+## What technology doesn't change
+
+- ABC
+- Certainty and truth are consequence of the accumalation of information. Single experiments or pieces of information rarely if ever definitively answer a question.
+- human cognition
 -->
