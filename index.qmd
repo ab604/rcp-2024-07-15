@@ -93,4 +93,12 @@ If it's on the internet there's a good chance it's part of the training dataset.
 - ABC
 - Certainty and truth are consequence of the accumalation of information. Single experiments or pieces of information rarely if ever definitively answer a question.
 - human cognition
+
+# Example of GPT being helpful with lung and cross validation
+with traditional searching
+
+# Example of halluciantion of articles
+
+# Moral of the story: GPTs enhance, but don't replace traditional research skills
+
 -->
