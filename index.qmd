@@ -7,7 +7,7 @@
 . . .
 
 - [**A**]{.vonrestoff}ssume nothing. [**B**]{.vonrestoff}elieve no-one. [**C**]{.vonrestoff}heck everything.
-- Certainty arises from an accumalation of knowledge[^]{.highlight}. 
+- Certainty arises from an accumulation of knowledge[^]{.highlight}. 
 
 [[*]{.highlight}GPT: Generative Pre-trained Transformer.<br>[^]{.highlight}Single experiments or single sources rarely if ever definitively answer a question. Find and check primary sources. Testing not proving hypotheses.]{.reference}
 
@@ -17,7 +17,7 @@
 
 ## Cancer is the uncontrolled growth of our cells. {.center}
 
-## Uncontrolled growth is driven by the accumalation of mutations in our genes. {.center}
+## Uncontrolled growth is driven by the accumulation of mutations in our genes. {.center}
 
 ## The gene can be considered the basic unit of inheritance.<br><br>Genes are sequences of nucleic acids using a four letter alphabet to encode information.{.center}
 
