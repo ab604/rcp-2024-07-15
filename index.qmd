@@ -7,9 +7,9 @@
 . . .
 
 - [**A**]{.vonrestoff}ssume nothing. [**B**]{.vonrestoff}elieve no-one. [**C**]{.vonrestoff}heck everything.
-- Certainty arises from an accumalation of information[^]{.highlight}. 
+- Certainty arises from an accumalation of knowledge[^]{.highlight}. 
 
-[[*]{.highlight}GPT: Generative Pre-trained Transformer.<br>[^]{.highlight}Single experiments or sources rarely if ever definitively answer a question. Find primary sources. Testing not proving hypotheses.]{.reference}
+[[*]{.highlight}GPT: Generative Pre-trained Transformer.<br>[^]{.highlight}Single experiments or single sources rarely if ever definitively answer a question. Find and check primary sources. Testing not proving hypotheses.]{.reference}
 
 # General background information {background-color="#4BB694"}
 
