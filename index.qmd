@@ -31,7 +31,7 @@
 
 ### In fact only about 1.5% of our genes code for protein.<br><br>
 
-### Proteins use 20 letter amino acid alphahbet, so a mutation can also be seen as a change in a protein sequence.
+### Proteins use 20 letter amino acid alphabet, so a mutation can also be seen as a change in a protein sequence.
 
 ## {.center}
 
