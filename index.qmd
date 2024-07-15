@@ -1,16 +1,15 @@
 # The moral of the story... {background-color="#4BB694"}
 
-## *\<new technology\>* [enhances, but doesn't replace]{.vonrestoff} *\<tried and tested methods\>* {.center}
+## *\<new technology\>*<br>[enhances, but doesn't replace]{.vonrestoff}<br>*\<tried and tested methods\>* {.center}
 
 ## GPTs[*]{.highlight} enhance, but don't replace traditional research skills {.center}
 
 . . .
 
-- Assume nothing. Believe no-one. Check everything.
-- Primary sources 
-- Certainty arises from the accumalation of information. Single experiments or sources rarely if ever definitively answer a question.
+- [**A**]{.vonrestoff}ssume nothing. [**B**]{.vonrestoff}elieve no-one. [**C**]{.vonrestoff}heck everything.
+- Certainty arises from an accumalation of information[^]{.highlight}. 
 
-[[*]{.highlight}GPT: Generative Pre-trained Transformer]{.reference}
+[[*]{.highlight}GPT: Generative Pre-trained Transformer.<br>[^]{.highlight}Single experiments or sources rarely if ever definitively answer a question. Find primary sources. Testing not proving hypotheses.]{.reference}
 
 # General background information {background-color="#4BB694"}
 
@@ -95,11 +94,9 @@ Less than 20% of all lung cancer patients survive for 5 years, with the majority
 
 # Generative pre-trained transformer {background-color="#4BB694"}
 
-# [A GPT as a dataset]{.vonrestoff} {.center}
+# GPT as [a dataset]{.vonrestoff} {.center}
 
-At least that's how I prefer to think of it.<br>Ok, but so what?
-
-## The mental model of a GPT as a dataset helps me think about it's strengths and weaknessess. {.center}
+## A mental model of a GPT as a dataset helps me think about it's strengths and weaknessess. {.center}
 
 . . .
 
@@ -114,9 +111,11 @@ At least that's how I prefer to think of it.<br>Ok, but so what?
 
 - A GPT doesn't neccessarily know the provenance of its data.
 
-## Part of training is through reinforcement {.center}
+## Part of training is [reinforcement feedback]{.vonrestoff} {.center}
 
-Hence the "desire to please" that generates hallucinations and part of why they all have a different vibe. 
+. . .
+
+Hence the "*desire to please*" that encourages hallucinations and is part of why they all have a different vibe. 
 
 ## In practice {.center background-color="#4BB694"}
 
@@ -146,30 +145,4 @@ I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good plac
 
 ## *GPTs* [enhance, but don't replace]{.vonrestoff} *traditional research skills* {.center}
 
-<!--
-# Generative pre-trained transformer {background-color="#4BB694"}
-
-## Before ChatGPT there was Alphafold[*]{.highlight} {.center}
-
-[[*]{.highlight} Way, way back in 2020. And in fact the first machine learning tool I used was created in 2003]{.reference}
-
-# [A GPT as a dataset]{.vonrestoff} {.center}
-
-At least that's how I prefer to think of it.<br>Ok, but so what?
-
-## The mental model of a GPT as a dataset helps me think about it's strengths and weaknessess.
-
-- A GPT is amazing at organisational transformations of the complex data it contains and responding to natural language prompts.
-- A GPT is very bad at abstraction or out-of-sample questions i.e. about things not in its dataset.
-- A GPT doesn't neccessarily know the provenance of its data.
-
-## Part of training is through reinforcement
-
-Hence the "desire to please" that generates hallucinations and part of why they all have a different vibe. 
-
-## What does that look like in practice
-
-I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good place to compare outputs from the same prompt.
-
-If it's on the internet there's a good chance it's part of the training dataset.
--->
+## {background-image="img/ethan-mollick-tweet-2024-07-15.png" background-size="contain"}
