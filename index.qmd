@@ -1,3 +1,17 @@
+# The moral of the story... {background-color="#4BB694"}
+
+## *\<insert new technology here\>* [enhances, but don't replace]{.vonrestoff} *\<insert tried and tested existing method here\>* {.center}
+
+## GPTs[*]{.highlight} enhance, but don't replace traditional research skills {.center}
+
+. . .
+
+- Assume nothing. Believe no-one. Check everything.
+- Primary sources 
+- Certainty arises from the accumalation of information. Single experiments or sources rarely if ever definitively answer a question.
+
+[[*]{.highlight}GPT: Generative Pre-trained Transformer]{.reference}
+
 # General background information {background-color="#4BB694"}
 
 ## Cancer touches everyone directly or indirectly. {.center}
@@ -8,19 +22,41 @@
 
 ## The gene can be considered the basic unit of inheritance.<br><br>Genes are sequences of nucleic acids using a four letter alphabet to encode information.{.center}
 
-## The central dogma of biology is that DNA is transcribed to RNA, and RNA is translated to proteins.<br><br>Along with fats, sugars, salt and water, this is essentially what we and our cells are physically. {.center}
+## A mutation is a change in the DNA sequence of a gene. {.center}
 
-## In fact only about 1.5% of our genes code for protein.<br><br>Proteins use 20 letter amino acid alaphbet. {.center}
+## {.center}
 
-## Mutations occur spontaneouly and from environmental exposure that damages our DNA. When our cells divide and renew, the new cells inherits the mutated DNA. The longer one lives or does certain behaviours, the more chance for mutations. {.center}
+### The central dogma of biology is that DNA is transcribed to RNA, and RNA is translated to proteins.<br><br>Along with fats, sugars, salt and water, this is essentially what we and our cells are physically.
 
-## Treatments are still largely based around poision, burning or cutting. They aim to remove or prevent fast dividing cells continuing.<br><br>These are blunt tools and are unpleasant to undergo. {.center}
+## {.center}
 
-## In the 1970s we invented antibody technology and have since designed molecules to bind to receptors on certain types of cancer to inhibit their growth. These came into use around 2000. {.center}
+### In fact only about 1.5% of our genes code for protein.<br><br>
+
+### Proteins use 20 letter amino acid alphahbet, so a mutation can also be seen as a change in a protein sequence.
+
+## {.center}
+
+### Mutations occur spontaneouly and from environmental exposure that damages our DNA. 
+
+### When our cells divide and renew, the new cells inherit the mutated DNA. 
+
+### The longer one lives or does certain behaviours, the more chance for mutations. 
+
+## Cancer challenges:<br>prevention, [early detection]{.vonrestoff}, [treatment]{.vonrestoff}. {.center} 
+
+## [Detection]{.vonrestoff} has and continues to improve, and looking directly for mutations or for the effects of mutations plays a major role. {.center}
+
+## [Treatments]{.vonrestoff} are still largely based around poision, burning or cutting. They aim to remove or prevent growth of fast dividing cells.<br><br>These are blunt tools and are unpleasant to undergo. {.center}
+
+## {.center}
+
+### In the 1970s we invented antibody technology and have since designed molecules to bind to receptors on certain types of cancer to inhibit their growth. These came into use around 2000. 
 
 ## In the 2000s we developed antibody treatments targeting immune system cells to help our immune system recognise and kill cancer. {.center}
 
-## But given the random aspect of mutations and side effects of existing treatments, the challenge is to target treatment better and create more personalised treatments.<br><br>We are now entering the age of cancer vaccines. {.center}
+## {.center}
+
+### But given the random aspect of mutations and side effects of existing treatments, one challenge is to create more targeted and/or personalised treatments.<br><br>We are now entering the age of cancer vaccines. 
 
 ## Re-cap {.center}
 Genes get mutated and encode information. 
@@ -31,11 +67,11 @@ Proteins are gene products, hence a mutation in a gene can be translated into a 
 
 . . .
 
-Historically medicines generally target proteins, and proteins are the what the immune system sees. 
+Historically, medicines generally target proteins and proteins are the what the immune system sees. 
 
 # Lung cancer {background-color="#4BB694"}
 
-In the UK, 70% of lung cancers are the result of smoking. It is usually diagnosed late which contributes to poor survivability.
+In the UK, 70% of lung cancers are the result of smoking. It is usually diagnosed late, which contributes to poor survivability.
 
 . . .
 
@@ -45,13 +81,11 @@ Around 50,000 people are diagnosed each year.
 
 Less than 20% of all lung cancer patients survive for 5 years, with the majority of patients surviving less than one year post-diagnosis.
 
-## Lung cancer challenges: prevention, [early detection]{.vonrestoff}, [treatment]{.vonrestoff} {.center}
-
 ## Multiomics {.center}
 
 +  [-ome]{.vonrestoff} is the suffix for whole e.g. genome is the whole set of genes of an organism
 + Using patients tissue we examined their exome, transcriptome, proteome and immunopeptidome
-+ The aim is to identify individual mutations that would make cancer vaccines and cancer subtype charateristics that could be used for diagnosis
++ The aim is to identify individual mutations that would make cancer vaccines and cancer subtype charateristics that could be used for detection/diagnosis
 
 ## In other words, we seek to make sense of the information stored inside patient tissues, but there is a lot of information.<br><br>Hence (bio)informatics[*]{.highlight} {.center}
 
@@ -59,7 +93,58 @@ Less than 20% of all lung cancer patients survive for 5 years, with the majority
 
 ## {background-image="img/deg-volcano-plot-2024-06-26.png" background-size="contain"}
 
+# Generative pre-trained transformer {background-color="#4BB694"}
+
+# [A GPT as a dataset]{.vonrestoff} {.center}
+
+At least that's how I prefer to think of it.<br>Ok, but so what?
+
+## The mental model of a GPT as a dataset helps me think about it's strengths and weaknessess. {.center}
+
+. . .
+
+- A GPT is amazing at organisational transformations of the complex data it contains and responding to natural language prompts.
+ 
+. . .
+
+
+- A GPT is very bad at abstraction or out-of-sample questions i.e. about things not in its dataset.
+
+. . .
+
+- A GPT doesn't neccessarily know the provenance of its data.
+
+## Part of training is through reinforcement {.center}
+
+Hence the "desire to please" that generates hallucinations and part of why they all have a different vibe. 
+
+## In practice {.center background-color="#4BB694"}
+
+I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good place to compare outputs from the same prompt.
+
+## {background-image="img/deg-volcano-plot-2024-06-26.png" background-size="contain"}
+
+## {background-image="img/claude-gene-list-2024-07-15.png" background-size="contain"}
+
+## {background-image="img/claude-papers-2024-07-15.png" background-size="contain"}
+
+## {background-image="img/claude-doi-01-2024-07-15.png" background-size="contain"}
+
+## {background-image="img/claude-doi-02-2024-07-15.png" background-size="contain"}
+
 ## {background-image="img/claude-2024-07-11.png" background-size="contain"}
+
+## {.center} 
+
+### I then asked Claude to provide various comparisons, summaries and follow-up questions and saved the transcript for further reference[*]{.highlight}
+
+[[*]{.highlight}And forwarded it to my colleague for comment.]{.reference}
+
+## {background-image="img/glucose-paper-2024-07-15.png" background-size="contain"}
+
+# The moral of the story... {background-color="#4BB694"}
+
+## *GPTs* [enhance, but don't replace]{.vonrestoff} *traditional research skills* {.center}
 
 <!--
 # Generative pre-trained transformer {background-color="#4BB694"}
@@ -68,7 +153,7 @@ Less than 20% of all lung cancer patients survive for 5 years, with the majority
 
 [[*]{.highlight} Way, way back in 2020. And in fact the first machine learning tool I used was created in 2003]{.reference}
 
-# [A GPT is a dataset!]{.vonrestoff} {.center}
+# [A GPT as a dataset]{.vonrestoff} {.center}
 
 At least that's how I prefer to think of it.<br>Ok, but so what?
 
@@ -87,18 +172,4 @@ Hence the "desire to please" that generates hallucinations and part of why they 
 I favour Claude, but [LMSYS Chatbot Arena](https://chat.lmsys.org/) is good place to compare outputs from the same prompt.
 
 If it's on the internet there's a good chance it's part of the training dataset.
-
-## What technology doesn't change
-
-- ABC
-- Certainty and truth are consequence of the accumalation of information. Single experiments or pieces of information rarely if ever definitively answer a question.
-- human cognition
-
-# Example of GPT being helpful with lung and cross validation
-with traditional searching
-
-# Example of halluciantion of articles
-
-# Moral of the story: GPTs enhance, but don't replace traditional research skills
-
 -->
