@@ -1,6 +1,6 @@
 # The moral of the story... {background-color="#4BB694"}
 
-## *\<insert new technology here\>* [enhances, but don't replace]{.vonrestoff} *\<insert tried and tested existing method here\>* {.center}
+## *\<flashy new technology\>* [enhances, but doesn't replace]{.vonrestoff} *\<tried and tested existing methods\>* {.center}
 
 ## GPTs[*]{.highlight} enhance, but don't replace traditional research skills {.center}
 
